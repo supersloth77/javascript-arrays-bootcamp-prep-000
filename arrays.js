@@ -17,3 +17,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars, addition) {
   chocolateBars.push(addition);
   return chocolateBars;
 }
+
+function accessElementInArray(chocolateBars, index) {
+  return chocolateBars[index];
+}
